@@ -18,7 +18,7 @@ describe('Array', function() {
 
 describe('true or false', function () {
           it('true should not be false', function () {
-              assert.not.equal(true, false);
+              assert.equal((true===false), false);
           });
 });
 
