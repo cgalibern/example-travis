@@ -12,5 +12,13 @@ describe('Array', function() {
                   assert.equal([1,2,3,9].length, 4);
                   assert.equal([].length, 0);
           });
-    });});
+    });
+
+});
+
+describe('true or false', function () {
+          it('true should not be false', function () {
+              assert.not.equal(true, false);
+          });
+});
 
