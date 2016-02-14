@@ -13,5 +13,13 @@ describe('Array', function() {
                   assert.equal([].length, 0);
                   assert.equal(["bad length test"].length, 1);
           });
-    });});
+    });
+
+});
+
+describe('true or false', function () {
+          it('true should not be false', function () {
+              assert.equal((true===false), false);
+          });
+});
 
